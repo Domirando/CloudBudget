@@ -1,0 +1,8 @@
+@import url("class_styles.css");
+@import url("tag_styles.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}

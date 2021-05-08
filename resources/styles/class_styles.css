@@ -1,0 +1,88 @@
+.container{
+  padding: 3rem 8rem 0rem 8rem;
+}
+.logo_text{
+  font-size: 18px;
+  line-height: 21.6px;
+  padding-left: 10px;
+  font-weight: bold;
+  font-family: Lato;
+  text-align: center;
+  display: inline-block;
+}
+.btn--log{
+  padding: 10px 25px;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-weight: 100;
+  font-size: 15px;
+  line-height: 16.8px;
+}
+.btn--sign{
+  text-decoration: none;
+  border: none;
+  background-color: #fff;
+  border-radius: 10px;
+  color: #ED4C5C;
+  font-size: 14px;
+  line-height: 16.8px;
+  font-weight: 600;
+  font-style: normal;
+  padding: 15px 30px;
+  margin-top: 50px;
+}
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+.main--h1{
+  text-transform: uppercase;
+  font-size: 72px;
+  line-height: 86.4px;
+  letter-spacing: 5%;
+  margin-top: 120px;
+}
+
+.content{
+  font-size: 23px;
+  line-height: 37px;
+  padding: 0 250px;
+  text-align: center;
+}
+.part{
+  position: relative;
+  height: 50vh;
+  width: 100%;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.play{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #ED4C5C;
+}
+.left--side{
+  background-color: #222;
+  width: 50%;  
+  height: 100%;
+}
+.right--side{
+  background-color: red;
+  width: 50%;  
+  height: 100%;
+}
+.left--side-heading{
+  font-size: 36px;
+  line-height: 43.2px;
+  font-weight: 600;
+}

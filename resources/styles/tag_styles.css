@@ -1,0 +1,41 @@
+header {
+  font-family: Lato;
+  background-image: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%), url(../images/header_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  color: white;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  justify-content: space-between;
+  justify-items: center;
+
+}
+
+ul {
+  display: flex;
+  font-size: 15px;
+  line-height: 16.8px;
+  align-self: center;
+
+}
+
+li {
+  list-style-type: none;
+  margin: 15px;
+}
+section{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  
+}
+
