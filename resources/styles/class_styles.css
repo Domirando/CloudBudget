@@ -55,7 +55,6 @@
   position: relative;
   height: 50vh;
   width: 100%;
-  border: 2px solid black;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -72,17 +71,19 @@
   background-color: #ED4C5C;
 }
 .left--side{
-  background-color: #222;
   width: 50%;  
   height: 100%;
 }
 .right--side{
-  background-color: red;
+  background: url(../images/s1-right.jpg) center no-repeat; 
+  background-size: cover;
+  margin: 0px 100px;
+  border-radius: 10px;
   width: 50%;  
   height: 100%;
 }
 .left--side-heading{
-  font-size: 36px;
+  font-size: 35px;
   line-height: 43.2px;
   font-weight: 600;
 }
