@@ -1,2 +1,2 @@
 # CloudBudget
-Web site using HTML, CSS, JS 
+Super simple website using HTML, CSS, JS 
