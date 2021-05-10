@@ -86,11 +86,13 @@
   height: 100%;
 }
 .left--side-heading{
-  font-size: 35px;
+  margin-bottom: 30px;
+  font-size: 30px;
   line-height: 43.2px;
   font-weight: 600;
 }
 .left--side-content{
+  margin-bottom: 20px;
   font-size: 14px;
   line-height: 19.6px;
 }
@@ -101,6 +103,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-top: 60px;
   background-color: #FAFAFA;
 }
 .box{
@@ -124,8 +127,10 @@
 .box-container{
   display: flex;
   flex-direction: row;
+  margin-top: 60px;
   justify-content: space-between;
   text-align: center;
+  padding-bottom: 240px;
 }
 .box-content{
   position: absolute;
