@@ -100,11 +100,11 @@
 .p-1s-2{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  text-align: center;
   background-color: #FAFAFA;
 }
 .box{
+  position: relative;
   height: 250px;
   width: 350px;
   background-size: cover;
@@ -124,4 +124,14 @@
 .box-container{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+.box-content{
+  position: absolute;
+  top: 50%;
+  width: 250px;
+  border-radius: 8px;
+  height: 150px;
+  background-color: rgb(194, 192, 192);
 }
