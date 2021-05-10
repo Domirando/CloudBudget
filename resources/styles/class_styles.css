@@ -1,5 +1,6 @@
 .container{
   padding: 3rem 8rem 0rem 8rem;
+  text-align: center;
 }
 .logo_text{
   font-size: 18px;
@@ -127,6 +128,7 @@
 .box-container{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   margin-top: 60px;
   justify-content: space-between;
   text-align: center;
@@ -160,4 +162,4 @@ font-size: 12px;
 .btn-box{
   color: #ED4C5C;
   text-align: center;
-}
+}\
