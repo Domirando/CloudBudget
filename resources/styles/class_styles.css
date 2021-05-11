@@ -192,3 +192,33 @@ font-size: 12px;
 .box-content--heading{
   font-size: 18px;
 }
+.section--3{
+  background-color: #ED4C5C;
+  height: 50vh;
+  color: white;
+  text-align: left;
+}
+.s3--leftSide{
+  width: 40%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.s3--leftSid>h1{
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  margin-bottom: 50px; 
+}
+.s3--leftSid>p{
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  margin-bottom: 50px; 
+
+}
+.s3--rightSide{
+  width: 60%;
+}
