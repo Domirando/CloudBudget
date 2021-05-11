@@ -107,6 +107,16 @@
   margin-top: 60px;
   background-color: #FAFAFA;
 }
+
+.box-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+  margin-top: 60px;
+  justify-content: space-between;
+  text-align: center;
+  padding-bottom: 240px;
+}
 .box{
   position: relative;
   height: 250px;
@@ -125,15 +135,6 @@
   background-image: url('../images/box-3.jpg'); 
 }
 
-.box-container{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-top: 60px;
-  justify-content: space-between;
-  text-align: center;
-  padding-bottom: 240px;
-}
 .box-content{
   position: absolute;
   display: flex;
@@ -186,19 +187,8 @@ font-size: 12px;
 .s2-box-content{
   padding-top: 30px;
   height: 150px;
-  width: 250px;
+  width: 200px;
 }
 .box-content--heading{
   font-size: 18px;
-  font-weight: bold;
-  line-height: 22px;
-  color: #101010;
-}
-.box-content--text{
-  padding-top: 70px;
-  font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 25px;
-text-align: center;
 }
