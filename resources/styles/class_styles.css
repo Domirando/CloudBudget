@@ -178,26 +178,27 @@ font-size: 12px;
   display: block;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -80%);
+  transform: translate(-50%, -70%);
   padding-bottom: 50px;
   height: 100px;
   width: 100px;
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-.s2-frame:nth-of-type(1){
-  background-image: url('../images/FrameCLOUDSECURE.png');
-}
-.s2-frame:nth-of-type(2){
-  background-image: url('../images/FrameSECURE.png');
-}
-.s2-frame:nth-of-type(3){
-  background-image: url('../images/VectorPDF.png');
-}
-.s2-frame:nth-of-type(4){
-  background-image: url('../images/VectorCSV.png');
 }
 .s2-box-content{
+  padding-top: 30px;
   height: 150px;
-  width: 200px;
+  width: 250px;
+}
+.box-content--heading{
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 22px;
+  color: #101010;
+}
+.box-content--text{
+  padding-top: 70px;
+  font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 25px;
+text-align: center;
 }
