@@ -207,13 +207,13 @@ font-size: 12px;
   flex-direction: column;
   justify-content: space-between;
 }
-.s3--leftSid>h1{
+.s3--leftSide>h1{
   font-weight: 600;
   font-size: 36px;
   line-height: 43px;
   margin-bottom: 50px; 
 }
-.s3--leftSid>p{
+.s3--leftSide>p{
   display: block;
   font-weight: normal;
   font-size: 14px;
@@ -224,23 +224,26 @@ font-size: 12px;
 .s3--rightSide{
   display: flex;
     width: 60%;
+    float: right;
     position: relative;
 }
-.s3--img{
+/* .s3--img{
   opacity: 0.5;
 border-radius: 15px;
 width: 483px;
 height: 267px;
 background-repeat: no-repeat;
 background-size: cover;
-}
+} */
 .s3--img:nth-of-type(1){
+  width: 445px;
+height: 311px;
   background-image: url('../images/s3-left.jpg');
 }
 .s3--img:nth-of-type(2){
 width: 445px;
 height: 311px;
-z-index: 1;
+/* z-index: 1; */
 }
 .s3--img:nth-of-type(3){
   background-image: url('../images/s3-right.jpg');
