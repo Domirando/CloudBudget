@@ -194,6 +194,7 @@ font-size: 12px;
 }
 .section--3{
   display: flex;
+  flex-direction: row;
   background-color: #ED4C5C;
   height: auto;
   color: white;
@@ -222,22 +223,21 @@ font-size: 12px;
 
 }
 .s3--rightSide{
+
   display: flex;
     width: 60%;
     float: right;
     position: relative;
 }
-/* .s3--img{
+.s3--img{
   opacity: 0.5;
 border-radius: 15px;
 width: 483px;
 height: 267px;
 background-repeat: no-repeat;
 background-size: cover;
-} */
+}
 .s3--img:nth-of-type(1){
-  width: 445px;
-height: 311px;
   background-image: url('../images/s3-left.jpg');
 }
 .s3--img:nth-of-type(2){
