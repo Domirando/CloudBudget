@@ -414,3 +414,59 @@
 
   color: #000000;
 }
+.section--5{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+.section--5-full{
+height: 435px;
+  background-color: #FAFAFA;
+}
+.s5-content{
+  width: 25%;
+  height: 45vh;
+}
+.heading{
+  font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+margin-bottom: 30px;
+/* identical to box height */
+text-align: justify;
+
+color: #101010;
+}
+
+.text{
+  font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 160%;
+text-align: justify;
+padding-right: 130px;
+
+/* or 19px */
+
+text-transform: capitalize;
+
+color: #000000;
+}
+.vector{
+  padding-right: 10px;
+  padding-top: 20px;
+}
+.footer--text{
+  font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+
+color: #101010;
+text-align: justify;
+}
