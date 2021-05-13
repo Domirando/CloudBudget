@@ -227,6 +227,7 @@
   color: white;
   text-align: left;
   width: 100%;
+  padding-bottom: 60px;
 }
 
 .s3--leftSide {
@@ -285,4 +286,28 @@
 
 .s3--img:nth-of-type(3) {
   background-image: url('../images/s3-right.jpg');
+}
+
+.section--4{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50vh;
+  width: 100%;
+}
+.half{
+display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.s4--content-right{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.input--half{
+  /* width: 50%; */
+}
+.input--full{
+  width: 100%;
 }
