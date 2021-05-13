@@ -292,8 +292,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 50vh;
+  height: 500px;
   width: 100%;
+  padding-top: 100px;
 }
 
 .s4--content-left {
@@ -303,22 +304,23 @@
 
 
 .s4--content-right {
-  /* display: flex;
-  flex-direction: row;
-  justify-content: space-between; */
   width: 50%;
+  text-align: justify;
 
 }
+
 .half {
   display: flex;
   flex-direction: row;
   width: 100%;
 }
-.full{
+
+.full {
   width: 100%;
   flex-direction: column;
 }
-.input--half{
+
+.input--half {
   width: 50%;
   margin-bottom: 30px;
   border: 1px solid #333333;
@@ -345,13 +347,70 @@
 .s4-input {
   height: 60px;
 }
+
 .s4-input::placeholder {
   padding: 20px;
-font-family: Lato;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 19px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
 
-color: rgba(19, 39, 67, 0.5);
+  color: rgba(19, 39, 67, 0.5);
+}
+
+.select {
+  padding: 20px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(19, 39, 67, 0.5);
+}
+
+.input--btn {
+  width: 160px;
+  height: 50px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+  text-align: center;
+  color: #FFFFFF;
+  background: #ED4C5C;
+  border: 1.5px solid #ED4C5C;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+.s4-left--heading {
+  text-align: justify;
+  padding-bottom: 50px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+
+  color: #000000;
+
+}
+
+.s4-left--text {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  margin-right: 60px;
+  /* or 20px */
+
+  text-align: justify;
+
+  color: #000000;
 }
